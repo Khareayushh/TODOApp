@@ -1,3 +1,13 @@
+let person = prompt("Please enter your name");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  person+"'s";
+}
+
+
+
+
 //Selectors
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
